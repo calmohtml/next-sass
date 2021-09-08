@@ -1,9 +1,11 @@
-import styles from './hello-world.module.scss'
+import styles from "./hello-world.module.scss";
 
-export default function HelloWorld() {
+const HelloWorld = () => {
   return (
     <div className={styles.hello}>
       Hello World, I am being styled using SCSS Modules!
     </div>
-  )
-}
+  );
+};
+
+export default HelloWorld;
